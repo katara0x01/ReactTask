@@ -1,0 +1,70 @@
+.form {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: "column",
+}
+
+#modal {
+    position: absolute;
+    background: #b5512216;
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    font-size: 15px;
+}
+
+#modal-content {
+    border-radius: 20px;
+    background: white;
+    width: 90%;
+    text-align: center;
+    height: 20%;
+    color: #b55122;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.loan-form {
+    background: #342E37;
+    color: #b55122;
+    padding: 30px;
+    border-radius: 50px;
+    width: 50%;
+}
+
+label {
+    margin-top: 10px;
+    display: flex;
+    justify-content:  start;
+}
+
+input,select {
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+#submit-btn {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #b55122;
+    color: white;
+}
+
+input{
+    background-color:#FAFFFD;
+}
+
+.disabled {
+    background: gray !important;
+}
